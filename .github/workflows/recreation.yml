@@ -1,0 +1,27 @@
+name: Update recreation forests
+
+on:
+  schedule:
+    - cron: '40 19 * * 1'   # 매주 월요일 04:40 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch recreation forests
+        env:
+          RECREATION_API_KEY: ${{ secrets.RECREATION_API_KEY }}
+          FOREST_API_KEY: ${{ secrets.FOREST_API_KEY }}
+          KTO_API_KEY: ${{ secrets.KTO_API_KEY }}
+        run: python3 scripts/fetch_recreation.py
+      - name: Commit if changed
+        run: |
+          git config user.name "sanguruem-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add recreation.json
+          git diff --cached --quiet || (git commit -m "휴양림 데이터 갱신 $(date -u +%F)" && git push)
