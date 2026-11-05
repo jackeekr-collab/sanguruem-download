@@ -52,6 +52,14 @@ def base(s):
     return re.sub(r"\(.*?\)", "", s).strip()
 
 
+REG = [("서울", 0), ("경기", 0), ("인천", 0), ("강원", 1), ("충청북", 2), ("충북", 2), ("충청남", 3), ("충남", 3), ("대전", 3), ("세종", 3), ("전라남", 4), ("전남", 4), ("광주", 4), ("전라북", 5), ("전북", 5), ("경상남", 6), ("경남", 6), ("부산", 6), ("울산", 6), ("경상북", 7), ("경북", 7), ("대구", 7), ("제주", 8)]
+
+
+def region_of(text):
+    t = (text or "").strip()
+    return next((i for k, i in REG if t.startswith(k)), -1)
+
+
 def pick(items, name, reg=""):
     """이름이 같은 산(괄호 안 봉우리 표기는 무시)을 고른다. 같은 이름이 여럿이면 소재지(시·군)로 구분."""
     b = base(name)
@@ -68,7 +76,7 @@ def pick(items, name, reg=""):
     if reg:                                          # 이름만 같고 다른 지역의 산이면 연결하지 않는다
         tok = reg.split()[-1]
         area = cands[0].findtext("areanm") or ""
-        if tok not in area and tok[:-1] not in area:
+        if tok not in area and tok[:-1] not in area and region_of(reg) != region_of(area):
             print("지역 불일치로 제외:", name, "(", reg, ") ≠", nm(cands[0]), "(", area[:40], ")")
             return None
     return cands[0]
