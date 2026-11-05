@@ -1,0 +1,16 @@
+{
+  "updated": "2026-11-05",
+  "notices": [
+    {
+      "id": "2026-11-05-01",
+      "date": "2026-11-05",
+      "title": "산구름에 오신 것을 환영합니다",
+      "body": "산행 전에 [더보기 > 권한·배터리 안내]를 한 번 확인해 주세요. GPS 거리는 실제와 약 5~10% 차이가 날 수 있어요.",
+      "url": ""
+    }
+  ],
+  "news": [
+    { "date": "11/05", "title": "국립공원공단 탐방로 통제·예약 확인", "url": "https://www.knps.or.kr/portal/main.do" },
+    { "date": "11/05", "title": "산림청 숲나들e 입산통제 확인", "url": "https://hiking.kworks.co.kr/new_intro.aspx" }
+  ]
+}
