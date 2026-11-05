@@ -63,7 +63,15 @@ def pick(items, name, reg=""):
         sub = [it for it in cands if tok in (it.findtext("areanm") or "") or tok[:-1] in (it.findtext("areanm") or "")]
         if sub:
             cands = sub
-    return cands[0] if cands else None
+    if not cands:
+        return None
+    if reg:                                          # 이름만 같고 다른 지역의 산이면 연결하지 않는다
+        tok = reg.split()[-1]
+        area = cands[0].findtext("areanm") or ""
+        if tok not in area and tok[:-1] not in area:
+            print("지역 불일치로 제외:", name, "(", reg, ") ≠", nm(cands[0]), "(", area[:40], ")")
+            return None
+    return cands[0]
 
 
 def build(it):
