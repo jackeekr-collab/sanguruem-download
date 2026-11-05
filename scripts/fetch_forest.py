@@ -44,21 +44,26 @@ def call(name):
     return None
 
 
-def pick(items, name):
-    def nm(it):
-        return (it.findtext("mntnnm") or it.findtext("mntnm") or "").strip()
-    def base(s):
-        return re.sub(r"\(.*?\)", "", s).strip()
-    for it in items:
-        if nm(it) == name:
-            return it
-    for it in items:
-        if base(nm(it)) == base(name):
-            return it
-    for it in items:
-        if base(nm(it)).startswith(base(name)) or base(name).startswith(base(nm(it))) and nm(it):
-            return it
-    return None
+def nm(it):
+    return (it.findtext("mntnnm") or it.findtext("mntnm") or "").strip()
+
+
+def base(s):
+    return re.sub(r"\(.*?\)", "", s).strip()
+
+
+def pick(items, name, reg=""):
+    """이름이 같은 산(괄호 안 봉우리 표기는 무시)을 고른다. 같은 이름이 여럿이면 소재지(시·군)로 구분."""
+    b = base(name)
+    cands = [it for it in items if base(nm(it)) == b]
+    if not cands:
+        cands = [it for it in items if nm(it) and (base(nm(it)).startswith(b) or b.startswith(base(nm(it))))]
+    if len(cands) > 1 and reg:
+        tok = reg.split()[-1]                       # 예: "충남 서산시" → "서산시"
+        sub = [it for it in cands if tok in (it.findtext("areanm") or "") or tok[:-1] in (it.findtext("areanm") or "")]
+        if sub:
+            cands = sub
+    return cands[0] if cands else None
 
 
 def build(it):
@@ -73,7 +78,7 @@ def build(it):
 mts = json.load(open(os.path.join(os.path.dirname(__file__), "mountains.json"), encoding="utf-8"))
 out, unmatched = {}, []
 for m in mts:
-    root = call(m["n"])
+    root = call(base(m["n"]))
     time.sleep(0.3)
     if root is None:
         unmatched.append(m["n"] + "(호출 실패)")
@@ -81,9 +86,11 @@ for m in mts:
     code = (root.findtext(".//resultCode") or "").strip()
     if code not in ("00", "0000", ""):
         sys.exit("API 오류: %s %s" % (code, root.findtext(".//resultMsg")))
-    it = pick(root.findall(".//item"), m["n"])
+    its = root.findall(".//item")
+    it = pick(its, m["n"], m.get("reg", ""))
     if it is None:
         unmatched.append(m["n"])
+        print("후보 없음:", m["n"], "→ 검색결과", [nm(x) for x in its][:8])
         continue
     out[m["id"]] = build(it)
     print("OK", m["n"], "→", out[m["id"]].get("nm"))
