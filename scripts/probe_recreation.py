@@ -22,8 +22,9 @@ for nm in names:
     except Exception:
         print("JSON 아님:", txt[:300].replace(key, "***"))
         continue
-    body = j.get("response", {}).get("body", {})
-    hdr = j.get("response", {}).get("header", {})
+    root = j.get("response", j)
+    body = root.get("body", {})
+    hdr = root.get("header", {})
     print("header:", hdr, "totalCount:", body.get("totalCount"))
     items = body.get("items")
     if isinstance(items, dict):
@@ -31,6 +32,6 @@ for nm in names:
     if isinstance(items, list) and items:
         print("항목 이름:", list(items[0].keys()))
         for it in items[:2]:
-            print(json.dumps(it, ensure_ascii=False)[:700])
+            print(json.dumps(it, ensure_ascii=False)[:1500])
         break
-    print("items 없음:", json.dumps(j, ensure_ascii=False)[:300])
+    print("items 없음:", json.dumps(j, ensure_ascii=False)[:1200])
