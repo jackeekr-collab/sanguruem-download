@@ -14,6 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: 연결 진단 (임시)
+        continue-on-error: true
+        run: |
+          for u in https://apis.data.go.kr/ http://apis.data.go.kr/ https://www.data.go.kr/; do
+            echo "== $u"; curl -sS -m 20 -o /dev/null -w "code=%{http_code} connect=%{time_connect}s total=%{time_total}s\n" "$u" || true
+          done
+          getent hosts apis.data.go.kr || true
       - name: Fetch festivals from KTO
         env:
           KTO_API_KEY: ${{ secrets.KTO_API_KEY }}

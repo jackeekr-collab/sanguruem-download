@@ -20,8 +20,16 @@ def call(page):
         "serviceKey": KEY, "MobileOS": "ETC", "MobileApp": "sanguruem", "_type": "json",
         "eventStartDate": start, "arrange": "A", "numOfRows": 200, "pageNo": page})
     req = urllib.request.Request(BASE + "?" + q, headers={"Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        txt = r.read().decode("utf-8")
+    txt = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                txt = r.read().decode("utf-8")
+            break
+        except Exception as e:  # 해외 IP 접속 지연/차단 대비 재시도
+            print("시도 %d 실패: %s" % (attempt + 1, e))
+    if txt is None:
+        sys.exit("공공데이터포털에 연결하지 못했습니다(시간 초과)")
     try:
         j = json.loads(txt)
     except Exception:
