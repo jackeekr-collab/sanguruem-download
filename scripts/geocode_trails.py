@@ -27,12 +27,18 @@ def call(path, q):
 
 def ok(lat, lng): return LAT[0] <= lat <= LAT[1] and LNG[0] <= lng <= LNG[1]
 
+def short(a):
+    a = (a or '').strip()
+    for full, sh in (('충청북', '충북'), ('충청남', '충남'), ('전라북', '전북'), ('전북특별', '전북'), ('전라남', '전남'), ('전남광주', '전남'),
+                     ('경상북', '경북'), ('경상남', '경남')):
+        if a.startswith(full): return sh
+    return a[:2]
+
 def same_sido(doc_addr, ad):
-    a = (ad or '')[:2]
-    key = SIDO.get(a) or (SIDO.get((ad or '')[:3]))
-    d = doc_addr or ''
-    if a == '전남' or a == '광주': return d[:2] in ('전남', '광주') or '전라남' in d or '광주' in d
-    return True if not key else (d[:2] == a or key in d)
+    a, d = short(ad), short(doc_addr)
+    if not a: return True
+    if a in ('전남', '광주') and d in ('전남', '광주'): return True
+    return a == d
 
 def geocode(t):
     ad = (t.get('sa') or '').strip()
@@ -62,7 +68,7 @@ def main():
         o = old.get((t['n'], t['org'], t['sa']))
         if o:
             o = dict(t, lat=o['lat'], lng=o['lng'], geo=o.get('geo', 'addr')); items.append(o); continue
-        g = geocode(t); time.sleep(0.12)
+        g = geocode(t); time.sleep(0.2)
         r = dict(t)
         if g: r['lat'], r['lng'], r['geo'] = round(g[0], 6), round(g[1], 6), g[2]
         else: fail.append('%s | %s | %s' % (t['n'], t['org'], t['sa']))
