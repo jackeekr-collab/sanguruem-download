@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "notices": [
+    {
+      "id": "2026-11-06-01",
+      "date": "2026-11-06",
+      "title": "새 버전 1.0.7이 나왔어요",
+      "body": "내 위치에서 가까운 순으로 오일장·축제·휴양림·온천을 볼 수 있어요. 100대명산 지도 핀 색과 기록 중 화면도 개선했습니다. 아래 링크에서 받아 기존 앱 위에 덮어 설치하면 기록은 그대로 유지돼요. 설치 전 더보기 > 데이터 백업을 권장합니다.",
+      "url": "https://jackeekr-collab.github.io/sanguruem-download/"
+    },
     {
       "id": "2026-11-05-01",
       "date": "2026-11-05",
@@ -10,7 +17,15 @@
     }
   ],
   "news": [
-    { "date": "11/05", "title": "국립공원공단 탐방로 통제·예약 확인", "url": "https://www.knps.or.kr/portal/main.do" },
-    { "date": "11/05", "title": "산림청 숲나들e 입산통제 확인", "url": "https://hiking.kworks.co.kr/new_intro.aspx" }
+    {
+      "date": "11/05",
+      "title": "국립공원공단 탐방로 통제·예약 확인",
+      "url": "https://www.knps.or.kr/portal/main.do"
+    },
+    {
+      "date": "11/05",
+      "title": "산림청 숲나들e 입산통제 확인",
+      "url": "https://hiking.kworks.co.kr/new_intro.aspx"
+    }
   ]
 }
