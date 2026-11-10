@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jackeekr-collab.github.io/sanguruem-download/sitemap.xml
