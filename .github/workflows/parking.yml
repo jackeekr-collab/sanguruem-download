@@ -1,0 +1,25 @@
+name: Parking candidates
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Find parking candidates (Kakao Local API)
+        env:
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+        run: python3 scripts/parking_find.py
+      - name: Commit result
+        run: |
+          git config user.name "sanguruem-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add scripts/parking_candidates.json
+          git diff --cached --quiet || (git commit -m "주차장 후보 $(date -u +%F)" && git push origin HEAD:main)
