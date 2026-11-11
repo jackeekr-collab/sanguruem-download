@@ -43,17 +43,30 @@ for s in src:
             b = way[0][:-4]
             sf = shapefile.Reader(shp=io.BytesIO(z.read(b + '.shp')), dbf=io.BytesIO(z.read(b + '.dbf')), encoding='cp949')
             prj = [n for n in z.namelist() if n.lower().endswith('.prj')]
-            crs = CRS.from_epsg(5174)   # 한국 중부원점(Bessel) — 확인: prj는 약 100km 어긋남
-            tf = Transformer.from_crs(crs, 4326, always_xy=True)
-            segs = []
+            CANDS = {
+              'bessel500k': '+proj=tmerc +lat_0=38 +lon_0=127.0028902777778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +towgs84=-115.80,474.99,674.11,1.16,-2.31,-1.63,6.43 +units=m +no_defs',
+              'grs80_600k': '+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs',
+              'grs80_500k': '+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +units=m +no_defs',
+              'bessel600k': '+proj=tmerc +lat_0=38 +lon_0=127.0028902777778 +k=1 +x_0=200000 +y_0=600000 +ellps=bessel +units=m +no_defs',
+              'epsg5174': 'EPSG:5174', 'epsg5186': 'EPSG:5186'}
+            raw = []
             for sr in sf.shapeRecords():
                 pts = sr.shape.points
                 if len(pts) < 2: continue
                 rec = sr.record.as_dict()
-                ll = [tf.transform(x, y) for x, y in (pts[0], pts[-1])]
-                mid = tf.transform(*pts[len(pts) // 2])
                 dist = float(rec.get('SECTN_DSTN') or 0) or float(rec.get('Shape_Leng') or 0)
-                segs.append((pts[0], pts[-1], dist, float(rec.get('SECTN_UPLN') or 0), mid, ll))
+                raw.append((pts, dist, float(rec.get('SECTN_UPLN') or 0)))
+            bestc = None
+            for cn, cdef in CANDS.items():
+                tf = Transformer.from_crs(CRS.from_user_input(cdef), 4326, always_xy=True)
+                segs_c = []
+                for pts, dist, up in raw:
+                    mid = tf.transform(*pts[len(pts) // 2])
+                    segs_c.append((pts[0], pts[-1], dist, up, mid, None))
+                clat = sum(q[4][1] for q in segs_c) / len(segs_c); clng = sum(q[4][0] for q in segs_c) / len(segs_c)
+                dcc = hav(s['lat'], s['lng'], clat, clng) if s.get('lat') else 0
+                if bestc is None or dcc < bestc[0]: bestc = (dcc, cn, segs_c, clat, clng)
+            o['crs'] = bestc[1]; segs = bestc[2]
             if not segs: continue
             # 중심 좌표
             clat = sum(s_[4][1] for s_ in segs) / len(segs); clng = sum(s_[4][0] for s_ in segs) / len(segs)
