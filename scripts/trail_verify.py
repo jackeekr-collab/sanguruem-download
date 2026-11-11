@@ -6,9 +6,18 @@ import shapefile
 from pyproj import CRS, Transformer
 KEY = os.environ.get('DATA_GO_KR_KEY', '').strip()
 URL = 'https://apis.data.go.kr/1400000/trailInfoService/getforestspatialdataservice'
+import time
+def retry(fn, n=4):
+    for i in range(n):
+        try: return fn()
+        except Exception:
+            if i == n - 1: raise
+            time.sleep(3 * (i + 1))
 def api(**p):
     q = urllib.parse.urlencode(dict(serviceKey=KEY, **p))
-    with urllib.request.urlopen(URL + '?' + q, timeout=60) as r: return r.read().decode('utf-8', 'replace')
+    def f():
+        with urllib.request.urlopen(URL + '?' + q, timeout=60) as r: return r.read().decode('utf-8', 'replace')
+    return retry(f)
 def hav(a, b, c, d):
     R = 6371000; p = math.pi / 180
     x = math.sin((c - a) * p / 2) ** 2 + math.cos(a * p) * math.cos(c * p) * math.sin((d - b) * p / 2) ** 2
@@ -27,14 +36,14 @@ for s in src:
         best = None
         for it in items:
             if (it.findtext('mntnnm') or '').strip() != base: continue
-            data = urllib.request.urlopen(it.findtext('mntnfile'), timeout=90).read()
+            data = retry(lambda: urllib.request.urlopen(it.findtext('mntnfile'), timeout=90).read())
             z = zipfile.ZipFile(io.BytesIO(data))
             way = [n for n in z.namelist() if n.lower().endswith('.shp') and 'WG_MT_WAY' in n.upper()]
             if not way: continue
             b = way[0][:-4]
             sf = shapefile.Reader(shp=io.BytesIO(z.read(b + '.shp')), dbf=io.BytesIO(z.read(b + '.dbf')), encoding='cp949')
             prj = [n for n in z.namelist() if n.lower().endswith('.prj')]
-            crs = CRS.from_wkt(z.read(prj[0]).decode('utf-8', 'ignore')) if prj else CRS.from_epsg(5174)
+            crs = CRS.from_epsg(5174)   # 한국 중부원점(Bessel) — 확인: prj는 약 100km 어긋남
             tf = Transformer.from_crs(crs, 4326, always_xy=True)
             segs = []
             for sr in sf.shapeRecords():
