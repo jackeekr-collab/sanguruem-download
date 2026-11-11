@@ -1,57 +1,23 @@
 [
  {
-  "path": "cultureInfoService",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+  "op": "search",
+  "q": "설악산",
+  "status": 200,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><aeatreason>남한에서 세 번째로 높은 봉우리인 한계령, 마등령, 미시령 등 수많은 고개와 산줄기 계곡들이 어우러져 한국을 대표하는 산악미의 극치를 이루고 있으며, 국립공원(1970년 지정) 및 유네스코의 생물권 보존지역으로 지정(1982년)되어 관리되고 있는 점 등을 고려하여 선정, 백담사(百潭寺), 봉정암(鳳頂菴), 신흥사(新興寺), 계조암(繼祖菴), 오세암(五歲庵), 흔들바위, 토왕성폭포, 대승폭포 등이 특히 유명</aeatreason><areanm>강원도 속초시 설악동, 인제군 북면ㆍ인제읍, 양양군 서면ㆍ강현면</areanm><details>설악산은 한라산(1,947.3m),지리산(1,915.4m)에 이어 남한에서 세 번째로 높은 산으로 강원도 속초시와 양양군,인제군에 걸쳐 있다.&lt;BR&gt;옛 문헌을 보면 지금의 대청봉이 있는 양양, 속초의 산만을 `설악'이라 제한하였고 귀때기청봉이 있는 인제쪽의 산을 `한계산'이라 따로 지칭했다. 그 예로 안산 남쪽 장수대 부근에 있는 한계산성이 이를 뒷받침하고 있다. 진부령에서 대청봉까지 이어지는 북주능의 백미는 뭐니뭐니 해도 수많은 암봉들로 구성된 공룡능선인데 이 코스가 바로 북주능의 등뼈 역할을 하는 공룡능선을 가장 짧은 시간에 주파할 수 있는 길이다. 이 능선은 1963년 겨울, 당시 한국의 암벽등반 선구자이던 선우증옥, 정규현, 채태웅씨 등이 처음으로 완등한 이후 산악인들로부터 각광을 받다가 최근엔 일반인들도 쉽게 할 수 있을 만큼 등산로가 잘 닦여있다. &lt;BR&gt;백두산에서 남쪽으로 내리뻗어 이 땅의 기나긴 등뼈를 이루는 백두대간의 허리를 받들고 있는 설악산은 북의 금강산과 남의 오대산 사이에 솟아있는 천하의 명산으로 우리나라 관광명소 1호로 꼽힌다. 지난 1965년 11월 5일 천연기념물지구(163.4㎞), `69년 관광지(16.2㎞) 그리고 '70년에는 국립공원(174㎞)으로 각각 지정되었다. 그리고 1971년 9월에는 설악산 국립공원 관리사무소가 개설 되었고 `77년 '78년 두차례에 걸쳐 354.6㎞로 확장되었으며, 그 후 다시 374㎞로 넓이를 확대하였다. 울산암 등산로 초입에 있는 신흥사는 대한불교 조계종 제3교구 본사로 설악산의 대표적 사찰이다. 신라때 자장율사가 노루목근처에 향성사로 창건했다가 조선조때 현위치에 다시 세웠다고 한다.</details><etccourse>① 설악동-비선대-마등령-공룡능선-희운각-소청-설악산장 (총 11시간)&lt;BR&gt;② 용대리-백담사-수렴동대피소-쌍폭-봉정암-소청-설악산장 (총 8시간)&lt;BR&gt;③ 남교리-탕수동-대승령-귀청-한계령 갈림길-설악산장 (총 13시간 30분)</etccourse><flashurl> </flashurl><mntheight>1708</mntheight><mntncd>428302602</mntncd><mntnm>설악산</mntnm><overview>&amp;lt;금강산보다 몇 수 위인 한국의 알프스&amp;gt;&lt;BR&gt;한마디로 한국의 알프스다. 흔히 금강산에 비유하지만 높이도 72미터나 낮고 동서로 긴 능선이 없어 산역은 훨씬 좁다. 그럼에도 금강산이 예로부터 더 유명했던 이유는 교통이 편리한 데다 짚신 신고도 못 올라갈 데가 거의 없을 만큼 산이 순하기 때문이다. 알피니즘의 관점에서는 더욱, 설악산이 금강산보다 몇 수 위다. &lt;BR&gt;높이로는 한라산과 지리산 다음이나 빼어남으로는 분명 남한의 으뜸산이다. 백두대간인 공룡능선을 경계로 서쪽을 내설악, 동쪽을 외설악으로 나누는 것이 일반적이며 오색쪽을 따로 남설악으로 부르기도 한다. 내설악에는 백담계곡, 수렴동, 가야동, 탕수동(12선녀탕계곡) 등의 아름다운 계곡이 있고 외설악에는 계류미 뛰어난 천불동계곡과 협곡을 이룬 가지계곡들, 울산바위, 봉화대, 장군봉, 범봉 등 기골스런 암봉과 기암절벽을 자랑한다. &lt;BR&gt;눈이 많은 까닭에 설산이나 설봉산, 한계산으로도 불렸다. 동국여지승람에는 &quot;&quot;한가위에 내리기 시작한 눈이 하지에 이르러 사라지기 때문에 설악이라 한다&quot;&quot;는 기록도 있다. 지금도 오월까지는 골짜기에 잔설이 남아있다.</overview><subnm>섬세한 비경 두루 갖춘 팔방미인</subnm><tourisminf>● 숙식 및 기타정보&lt;BR&gt;설악동지구, 백담지구, 오색지구에 숙박시설이 즐비하다. 특히 설악동에는 특급호텔에서 길거리 호객 민박집에 이르기까지 다양한 숙박업소가 있으며 C지구에는 오토캠핑이 가능한 넓은 야영장도 있다. &lt;BR&gt;호텔 설악파크 ☎033-636-7711, 설악크리스탈모텔 ☎033-636-7626, 설악산민박 ☎033-635-4231 오색그린야드호텔(모텔) ☎033-672-8500 오색온천"
  },
  {
-  "path": "cultureInfoService/",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+  "found_code": null
  },
  {
-  "path": "service/cultureInfoService",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+  "op": "search",
+  "q": "북한산",
+  "status": 200,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><aeatreason>최고봉인 백운대를 위시하여 인수봉, 만경대, 노적봉 등 경관이 수려하고 도시민들의 휴식처이며 국립공원으로 지정(1983년)되어 있는 점 등을 고려하여 선정, 북한산성, 우이동계곡, 정릉계곡, 세검정계곡 등이 유명. 도선국사가 창건한 도선사(道詵寺), 태고사(太古寺), 화계사(華溪寺), 문수사(文殊寺), 진관사(津寬寺) 등 수많은 고찰이 있음</aeatreason><areanm>서울특별시 강북구ㆍ성북구ㆍ종로구ㆍ은평구, 경기도 고양시ㆍ양주시</areanm><details>서울의 진산 북한산은 조선조 초기에는 삼각산(三角山)으로 불렀다. 삼각산이란 이름은 〈신증동국여지승람〉에 '삼각산은 양주의 경계에 있다. 일명 화산(華山)이라 하고, 신라시대에는 부아악(負兒岳)이라고 불렀다.&lt;BR&gt;이 산은 경성(京城)의 진산으로 동명왕의 아들 온조가 한산(漢山)에 이르러 부아악에 올라가서 살 만한 곳을 살폈다'는 기록이 있으며, '백운봉 (白雲峰, 지금의 백운대), 인수봉 (仁壽峰), 만경봉 (萬景峰,지금의 만경대)등 세 봉우리가 있으므로 그렇게 이름한 것이다'라고 유래를 기록하고 있다. 북한산성에 대해서는 〈신증동국여지승람〉과 〈북한지〉에 상세히 기록되어 있다. 북한산성은 백제 온조왕이 터를 잡았고 그후 개루왕 때 성터를 쌓았다는 기록이 있으며, 조선시대에 임진왜란, 병자호란을 치른 뒤 숙종 37년(1711년)에 시작하여, 6개월 만인 그해 10월에 완공하였다 한다. &lt;BR&gt;북한산성은 험한 산세를 이용하여 정상을 기점으로 서쪽 산자락부터 원효봉, 염초봉, 백운대, 만경대, 용암봉, 문수봉, 나한봉, 나월봉, 용출봉, 의상봉까지 연결하여 쌓은 산성으로 총 길이가 10km에 달한다. 당시 산성에는 14개의 성문을 냈는데, 산성의 정문 격인 대서문을 중심으로 북쪽으로 수문, 서암문(시구문), 북문, 백운대를 지나 위문, 용암문, 대동문, 보국문, 대성문, 대남문, 청수동암문, 대서문에서 북서쪽으로 이어지는 산성에는, 부황동암문, 가사동암문이 설치되었다.&lt;BR&gt;현재는 대부분 성문을 복원하였다. 북한산에 수많은 등산로 거미줄 같이 얽혀 있어 산행시 주의를 요하는 곳이다. 북한산의 산행 들머리는 대표적으로 여섯 군데를 꼽고 있다. 우이동 기점, 4.19탑 기점, 정릉 기점, 세검정 기점, 불광동 기점, 구파발 북한산성 기점으로 구분할 수 있다.</details><etccourse>① 북한산성 매표소-위문-용암문-대동문-대성문-대남문-가사당암문-북한산성매표소 (총 7시간)&lt;BR&gt;② 구기동-이북5도청-금선사-향로봉-비봉-승가봉-문수봉-대남문-구기동 (총 4시간 20분)&lt;BR&gt;③ 북악터널-형제봉-보현봉-대성문-보국문-대동문-동장대-용암문-백운대-우이동 (총 7시간)</etccourse><flashurl> </flashurl><mntheight>836</mntheight><mntncd>113050202</mntncd><mntnm>북한산</mntnm><overview>&amp;lt;명산의 3대조건 구비한 바위의 성채&amp;gt;&lt;BR&gt;북한산은 성채다. 최고봉 백운대를 비롯하여 인수봉, 노적봉, 의상봉, 보현봉 등 걸출한 암봉들이 험준한 산세를 이루고 여기 의지하여 사람들이 진짜 성을 쌓았다. &lt;BR&gt;썩 높은 산은 아니지만 주변에 어깨를 겨룰 대상이 없어 눈 닿는 곳이면 어디서나 보인다. 북으로 개성, 남으로 안성에 이르기까지. 백운산~운악산~용문산~치악산 라인 이서(以西)에는 덮을 자가 없는 것이다. &lt;BR&gt;세 뿔처럼 솟은 정상부의 봉만미가 타의 추종을 불허하게 인상적이다. 우이동계곡, 북한산성계곡, 평창동계곡 등에는 폭포와 암반계류의 계곡미도 갖추었다. 정상에 서면 일의대수(一衣帶水) 한강이 햇볕에 반짝이고있다. 이야말로 명산의 3대 조건을 완벽하게 맞추고있는 것이다. &lt;BR&gt;백운대에서 보현봉에 이르는 장엄한 주릉에서 원효봉능선, 상장봉능선, 진달래능선, 칼바위능선, 형제봉능선, 향로봉능선, 의상봉능선이 방추차의 실처럼 뻗어나가며 그만한 수의 계곡을 만든 까닭에 천만 서울사람들이 시도 때도 없이 찾아도 다 품어 안는다. 인수봉, 노적봉, 수리봉을 메주처럼 빚어놓고 “자일과 해머, 하켄, 카라비너로 젊음을 태워보세” 외치는 클라이머들 세계의 산을 누비도록 훈련시키기도 한다. 북한산은, 태어날 때부터 수도의 진산이 될 자격이 있었다.</overview><subnm>가거라 삼각산아, 다시 보자 한강수야</subnm><tourisminf>● 숙식 및 기타 정보&lt;BR&gt;각 코스별 들머리 부근에 숙식할 곳이 많으며 인수산장 위에는 야영장이 있다.&lt;BR&gt;&lt;BR&gt;● 이용문의&lt;BR&gt;북한산국립공"
  },
  {
-  "path": "cultureInfoService/mntInfoOpenAPI",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "path": "service/cultureInfoService/mntInfoOpenAPI",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "path": "service/cultureInfoService/mntInfoOpenAPI2",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "path": "cultureInfoService/mntInfoOpenAPI2",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "path": "cultureInfoService/cultureInfoList",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "path": "cultureInfoService/getCultureInfoList",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "path": "service/cultureInfoService/gdTrailInfoOpenAPI",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "path": "service/cultureInfoService/gdTrailInfoOpenAPI2",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+  "op": "search",
+  "q": "강천산",
+  "status": 200,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><aeatreason>&lt;p&gt;군립공원(1981년 지정)으로 지정되어 있으며, 강천계곡 등 경관이 수려하고 조망이 좋은 점 등을 고려하여 선정신라 진성여왕때(887년) 도선국사가 개창한 강천사(剛泉寺)가 있으며, 산 이름도 강천사(剛泉寺)에서 유래. 삼국시대에 축조된 것으로 추정되는 금성산성(金城山城)이 유명&lt;/p&gt;</aeatreason><areanm>전라북도 순창군 팔덕면, 전라남도 담양군 용면</areanm><details>&lt;p&gt;순창읍에서 10km의 가까운 거리에 있는 강천산은 호남의 소금강이라고 불릴 정도로 도처에 기봉이 솟아 있고, 크고 작은 수많은 바위 사이로 폭포를 이루고 있으며, 4km에 이르는 깊은 계곡과 계곡을 뒤덮은 울창한 숲은 자연 그대로의 아름다움을 고이 간직하고 있다.&lt;br&gt;&lt;br&gt;원래는 생김새가 용이 꼬리를 치며 승천하는 모습과 닮았다 하여 용천산(龍天山)이라 불렸다. 또한 유서깊은 강천사와 삼인대 5층 석탑, 금성산성 등 문화유적이 산재하고, 비경이 많이 숨겨져 있다. 일명 광덕산이라고도 불리는 강천산은 1981년 국내에서 최초로 군립공원으로 지정된 곳이기도 하며, 길이 76m의 현수교가 지상 50m 높이에 설치돼 있어 웅장함을 더해주고 있다.&lt;br&gt;&lt;br&gt;볼거리는 11월 초순에 절정을 이루는 단풍과 4월 초순에 만개하는 산벚꽃이 유명한데, 산 입구의 강천호 주변뿐 아니라 등산로 어디에서나 즐길 수 있다. 산 암봉 아래에는 887년(신라 진성여왕 1) 도선국사(道詵國師)가 세운 강천사가 있다.&lt;br&gt;&lt;br&gt;이 곳의 석탑은 전라북도 유형문화재 92호로 지정되었고, 절 입구의 모과나무는 전라북도기념물 97호이다. 그 밖에 순창 삼인대(三印臺:전북유형문화재 27), 금성산성(金城山城:전북기념물 52) 등의 문화유적이 있다. 내장산(內藏山:763.5m)·백양사(白羊寺)·담양댐 등과도 가깝다.&lt;/p&gt;</details><etccourse>&lt;p&gt;① 매표소-강천사-신선봉-구름다리-정상-깃대봉-매표소(총 3시간 35분)&lt;br&gt; ② 매표소-강천사-구름다리-정상-도계 종주-연대봉-연대암지-강천사(총 5시간 15분)&lt;br&gt;③ 매표소-강천사-구름다리-정상-530봉-서북릉-분통마을(총 2시간 45분)&lt;br&gt;④ 매표소-강천사-구름다리-정상-강천호-송낙바위-연대봉-산성산-연대암지-구름다리-강천사-매표소(총 4시간 30분)&lt;/p&gt;</etccourse><flashurl> </flashurl><mntheight>586</mntheight><mntncd>457700101</mntncd><mntnm>강천산</mntnm><overview>&lt;p&gt;&amp;lt;계류미 뛰어난 호남의 묘향&amp;gt;&lt;br&gt;1981년 사상 최초로 군립공원이 된 산이다. '군립'이라는 규모에 걸맞게 600미터가 채 안되지만 '공원'답게 뛰어난 계류미를 자랑한다. &lt;br&gt;&lt;br&gt;위는 육산, 아래는 골산(骨山)이어서 바위들이 거의 산중턱 아랫녘에 몰려있다. 하여 5킬로미터 암벽협곡으로 비룡계곡의 비룡폭포, 물통골의 약수폭포, 소목골 용두폭포, 계곡 본류로는 병풍바위의 인공폭포, 장대한 9장군폭포가 쏟아져 내리고 있다. 여기에 용바위, 호두암, 투구봉의 바위들과 금강굴, 수좌굴, 형제굴의 동굴이 어우러지고 강천사와 삼인대의 전설까지 깃들어있으니 한 마디로 작은 묘향산, 장엄하면서도 빼어난 역장역수(亦壯亦秀)의 기경이라 할 것이다. &lt;br&gt;&lt;br&gt;예전에는 용천산이라 불렸는데 송익필이라는 사람의 시 '숙(宿)강천사'가 뜨면서 강천산으로 바꿨다고 한다. 정말 어처구니없는 창씨개명이 아닐 수 없지만 익필의 자(字)로 산이름을 삼은 진안 운장산이 가장 멋진 부분까지 호 구봉에 뺏긴 것에 대면 그래도 낫다 할 것이다. 그 송익필은 선조때 서인의 막후실력자였다.&lt;/p&gt;</overview><subnm>국내 최초의 군립공원</subnm><tourisminf>&lt;p&gt;● 숙식 및 기타 정보&lt;br&gt;산 안에 강천각모델(☎652-9920)과 여러 개의 민박집이 있다. &lt;br&gt;회문산자연휴양림(☎063-653-4779)도 멀지 않다. &lt;br&gt;&lt;br&gt;● 이용문의&lt;br&gt;강천산군립공원 관리사무소 ☎063-650-1533&lt;/p&gt;</tourisminf><transport>&lt;p&gt;기점은 순창이다. 강천산 주차장까지 군내버스가 5분 간격으로 다닌다. 9킬로미터 거리니 걸어가도 된다. 순창으로는 서울 강남터미널에서 고속버스가 6회 있다. 전라북도 이외 도시로는 인천, 대구,"
  }
 ]
