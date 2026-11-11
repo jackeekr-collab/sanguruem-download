@@ -1,57 +1,42 @@
 [
  {
-  "op": "",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+  "params": {
+   "pageNo": 1,
+   "numOfRows": 3
+  },
+  "status": 200,
+  "len": 1320,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/2201280500.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M0116.jpg</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=355659.7813&amp;latitude=450266.25&amp;scale=17</mntninfourl><mntnnm>노추산</mntnnm></item><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/1410530100.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M1445.jpg</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=157304.5965&amp;latitude=443934.9157&amp;scale=17</mntninfourl><mntnnm>백운산</mntnnm></item><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/1410540400.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M0675.jpg</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=148788.5721&amp;latitude=431130.0025&amp;scale=17</mntninfourl><mntnnm>호룡곡산</mntnnm></item></items><numOfRows>3</numOfRows><pageNo>1</pageNo><totalCount>432</totalCount></body></response>"
  },
  {
-  "op": "getTrailInfoList",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+  "params": {
+   "pageNo": 1,
+   "numOfRows": 3,
+   "mntnNm": "강천산"
+  },
+  "status": 200,
+  "len": 609,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/2607102300.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M0028.swf</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=204260.2412&amp;latitude=210123.3837&amp;scale=17</mntninfourl><mntnnm>강천산</mntnnm></item></items><numOfRows>3</numOfRows><pageNo>1</pageNo><totalCount>1</totalCount></body></response>"
  },
  {
-  "op": "trailInfoList",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+  "params": {
+   "pageNo": 1,
+   "numOfRows": 3,
+   "mntnNm": "강천산",
+   "resultType": "json"
+  },
+  "status": 200,
+  "len": 609,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/2607102300.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M0028.swf</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=204260.2412&amp;latitude=210123.3837&amp;scale=17</mntninfourl><mntnnm>강천산</mntnnm></item></items><numOfRows>3</numOfRows><pageNo>1</pageNo><totalCount>1</totalCount></body></response>"
  },
  {
-  "op": "getTrailInfo",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "op": "trailInfo",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "op": "getForestTrailInfoList",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "op": "getTrailList",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "op": "gdTrailInfoOpenAPI",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "op": "trailInfoOpenAPI",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "op": "getMntnTrailInfo",
-  "status": 400,
-  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
- },
- {
-  "op": "getForestTrailInfo",
-  "status": 0,
-  "body": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+  "params": {
+   "pageNo": 1,
+   "numOfRows": 3,
+   "MNTN_NM": "강천산"
+  },
+  "status": 200,
+  "len": 1320,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><response><header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE.</resultMsg></header><body><items><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/2201280500.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M0116.jpg</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=355659.7813&amp;latitude=450266.25&amp;scale=17</mntninfourl><mntnnm>노추산</mntnnm></item><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/1410530100.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M1445.jpg</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=157304.5965&amp;latitude=443934.9157&amp;scale=17</mntninfourl><mntnnm>백운산</mntnnm></item><item><mntnfile>http://www.forest.go.kr/images/data/down/mount/1410540400.zip</mntnfile><mntnimg>http://www.forest.go.kr/swf/foreston/mountain/R_M0675.jpg</mntnimg><mntninfourl>https://map.forest.go.kr/forest/?systype=mapSearch&amp;searchOption=trail&amp;longitude=148788.5721&amp;latitude=431130.0025&amp;scale=17</mntninfourl><mntnnm>호룡곡산</mntnnm></item></items><numOfRows>3</numOfRows><pageNo>1</pageNo><totalCount>432</totalCount></body></response>"
  }
 ]
