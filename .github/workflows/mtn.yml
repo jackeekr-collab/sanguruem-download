@@ -1,0 +1,30 @@
+name: Mountain coordinates
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/mtn_source.json'
+      - 'scripts/geocode_mtn.py'
+
+permissions:
+  contents: write
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Find coordinate candidates (Kakao Local API)
+        env:
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+        run: python3 scripts/geocode_mtn.py
+      - name: Commit result
+        run: |
+          git config user.name "sanguruem-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add scripts/mtn_candidates.json
+          git diff --cached --quiet || (git commit -m "산 좌표 후보 $(date -u +%F)" && git push origin HEAD:main)
