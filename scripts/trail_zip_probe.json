@@ -1,0 +1,91 @@
+{
+ "강천산": {
+  "hits": [
+   "강천산"
+  ],
+  "zip": "http://www.forest.go.kr/images/data/down/mount/2607102300.zip",
+  "zip_bytes": 118249,
+  "files": [
+   "WAY_POINT_░¡├╡╗Ω_2607102300/WAY_POINT_░¡├╡╗Ω_2607102300.dbf",
+   "WAY_POINT_░¡├╡╗Ω_2607102300/WAY_POINT_░¡├╡╗Ω_2607102300.shp",
+   "WAY_POINT_░¡├╡╗Ω_2607102300/WAY_POINT_░¡├╡╗Ω_2607102300.shx",
+   "WG_MT_WAY_░¡├╡╗Ω_2607102300/WG_MT_WAY_░¡├╡╗Ω_2607102300.dbf",
+   "WG_MT_WAY_░¡├╡╗Ω_2607102300/WG_MT_WAY_░¡├╡╗Ω_2607102300.shp",
+   "WG_MT_WAY_░¡├╡╗Ω_2607102300/WG_MT_WAY_░¡├╡╗Ω_2607102300.shx"
+  ],
+  "fields": [
+   "MT_STD_IDX",
+   "SYM_NUM",
+   "SYM_TYP",
+   "SYM_NAM",
+   "SYM_TYP2",
+   "SYM_NAM2",
+   "PHOTO",
+   "SYM_TXT",
+   "CROSS_P",
+   "MNTN_NM",
+   "LABEL"
+  ],
+  "n_records": 135,
+  "sample": [
+   {
+    "MT_STD_IDX": "2607102300",
+    "SYM_NUM": "26071023000001",
+    "SYM_TYP": "9",
+    "SYM_NAM": "시종점",
+    "SYM_TYP2": "Y",
+    "SYM_NAM2": "시종점",
+    "PHOTO": "26071023000001Y001.JPG",
+    "SYM_TXT": "",
+    "CROSS_P": "시종점1",
+    "MNTN_NM": "강천산",
+    "LABEL": "강천산_2607102300"
+   },
+   {
+    "MT_STD_IDX": "2607102300",
+    "SYM_NUM": "26071023000002",
+    "SYM_TYP": "10",
+    "SYM_NAM": "",
+    "SYM_TYP2": "R",
+    "SYM_NAM2": "다리",
+    "PHOTO": "26071023000002R002.JPG",
+    "SYM_TXT": "",
+    "CROSS_P": "",
+    "MNTN_NM": "강천산",
+    "LABEL": "강천산_2607102300"
+   },
+   {
+    "MT_STD_IDX": "2607102300",
+    "SYM_NUM": "26071023000003",
+    "SYM_TYP": "10",
+    "SYM_NAM": "",
+    "SYM_TYP2": "R",
+    "SYM_NAM2": "폭포",
+    "PHOTO": "26071023000003R003.JPG",
+    "SYM_TXT": "",
+    "CROSS_P": "",
+    "MNTN_NM": "강천산",
+    "LABEL": "강천산_2607102300"
+   },
+   {
+    "MT_STD_IDX": "2607102300",
+    "SYM_NUM": "26071023000004",
+    "SYM_TYP": "3",
+    "SYM_NAM": "",
+    "SYM_TYP2": "D",
+    "SYM_NAM2": "화장실",
+    "PHOTO": "26071023000004D004.JPG",
+    "SYM_TXT": "",
+    "CROSS_P": "",
+    "MNTN_NM": "강천산",
+    "LABEL": "강천산_2607102300"
+   }
+  ]
+ },
+ "광교산": {
+  "hits": []
+ },
+ "남산제일봉": {
+  "hits": []
+ }
+}
