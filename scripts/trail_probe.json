@@ -1,0 +1,57 @@
+[
+ {
+  "op": "",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "getTrailInfoList",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "trailInfoList",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "getTrailInfo",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "trailInfo",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "getForestTrailInfoList",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "getTrailList",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "gdTrailInfoOpenAPI",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "trailInfoOpenAPI",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "getMntnTrailInfo",
+  "status": 400,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>NO_OPENAPI_SERVICE_ERROR</errMsg>\n  <returnAuthMsg>해당 오픈API 서비스가 없거나 폐기됨</returnAuthMsg>\n  <returnReasonCode>12</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ {
+  "op": "getForestTrailInfo",
+  "status": 0,
+  "body": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+ }
+]
