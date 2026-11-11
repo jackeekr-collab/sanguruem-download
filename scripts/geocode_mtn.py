@@ -28,7 +28,7 @@ def clean(n):
     return re.sub(r'\(.*?\)', '', n)
 
 def search(s):
-    base = clean(s['n'])
+    base = s.get('base') or clean(s['n'])
     area = ' '.join((s.get('area') or '').replace('ㆍ', ' ').split()[:2])
     seen, out = set(), []
     for q in ['%s %s' % (area, base), base]:
