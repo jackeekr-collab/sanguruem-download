@@ -1,0 +1,861 @@
+[
+ {
+  "n": "갑장산",
+  "cands": 1,
+  "center_off_m": 100435,
+  "n_seg": 18,
+  "total_km": 24.42,
+  "up_min_total": 678,
+  "summit_to_trail_m": 98509,
+  "diam_km": 9.46,
+  "comp_nodes": 14,
+  "all_nodes": 14,
+  "status": "ok"
+ },
+ {
+  "n": "검단산",
+  "cands": 1,
+  "center_off_m": 101257,
+  "n_seg": 13,
+  "total_km": 18.07,
+  "up_min_total": 496,
+  "summit_to_trail_m": 99058,
+  "diam_km": 7.67,
+  "comp_nodes": 13,
+  "all_nodes": 13,
+  "status": "ok"
+ },
+ {
+  "n": "검봉산",
+  "cands": 1,
+  "center_off_m": 100513,
+  "n_seg": 26,
+  "total_km": 20.1,
+  "up_min_total": 514,
+  "summit_to_trail_m": 99069,
+  "diam_km": 7.76,
+  "comp_nodes": 23,
+  "all_nodes": 25,
+  "status": "ok"
+ },
+ {
+  "n": "계명산",
+  "cands": 2,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "가은산(제천)",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "강천산",
+  "cands": 1,
+  "center_off_m": 99765,
+  "n_seg": 60,
+  "total_km": 34.15,
+  "up_min_total": 987,
+  "summit_to_trail_m": 97747,
+  "diam_km": 5.5,
+  "comp_nodes": 42,
+  "all_nodes": 42,
+  "status": "ok"
+ },
+ {
+  "n": "거류산",
+  "cands": 1,
+  "center_off_m": 99917,
+  "n_seg": 20,
+  "total_km": 13.09,
+  "up_min_total": 429,
+  "summit_to_trail_m": 98139,
+  "diam_km": 5.38,
+  "comp_nodes": 17,
+  "all_nodes": 17,
+  "status": "ok"
+ },
+ {
+  "n": "계족산",
+  "cands": 3,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "고대산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "고려산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "광교산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "구봉대산",
+  "cands": 1,
+  "center_off_m": 101291,
+  "n_seg": 2,
+  "total_km": 6.03,
+  "up_min_total": 151,
+  "summit_to_trail_m": 100882,
+  "diam_km": 6.03,
+  "comp_nodes": 3,
+  "all_nodes": 3,
+  "status": "ok"
+ },
+ {
+  "n": "굴암산",
+  "cands": 1,
+  "center_off_m": 100245,
+  "n_seg": 79,
+  "total_km": 48.31,
+  "up_min_total": 1378,
+  "summit_to_trail_m": 96184,
+  "diam_km": 11.44,
+  "comp_nodes": 41,
+  "all_nodes": 77,
+  "status": "ok"
+ },
+ {
+  "n": "귀때기청봉",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "금당산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "금학산",
+  "cands": 1,
+  "center_off_m": 114515,
+  "n_seg": 4,
+  "total_km": 6.13,
+  "up_min_total": 154,
+  "summit_to_trail_m": 114272,
+  "diam_km": 3.77,
+  "comp_nodes": 4,
+  "all_nodes": 4,
+  "status": "ok"
+ },
+ {
+  "n": "기백산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "기차산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "낙영산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "남산제일봉",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "남한산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "노고단",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "노추산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "단석산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "대봉산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "덕숭산",
+  "cands": 1,
+  "status": "no_match"
+ },
+ {
+  "n": "도장산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "동산(제천)",
+  "cands": 2,
+  "center_off_m": 99930,
+  "n_seg": 62,
+  "total_km": 52.68,
+  "up_min_total": 1771,
+  "summit_to_trail_m": 97624,
+  "diam_km": 18.42,
+  "comp_nodes": 51,
+  "all_nodes": 51,
+  "status": "ok"
+ },
+ {
+  "n": "동석산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "두위봉",
+  "cands": 1,
+  "center_off_m": 100735,
+  "n_seg": 6,
+  "total_km": 18.11,
+  "up_min_total": 453,
+  "summit_to_trail_m": 99617,
+  "diam_km": 12.1,
+  "comp_nodes": 7,
+  "all_nodes": 7,
+  "status": "ok"
+ },
+ {
+  "n": "두타산",
+  "cands": 3,
+  "center_off_m": 99946,
+  "n_seg": 35,
+  "total_km": 31.12,
+  "up_min_total": 833,
+  "summit_to_trail_m": 97833,
+  "diam_km": 12.39,
+  "comp_nodes": 29,
+  "all_nodes": 29,
+  "status": "ok"
+ },
+ {
+  "n": "마대산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "만덕산",
+  "cands": 2,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "만행산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "모락산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "모후산",
+  "cands": 1,
+  "center_off_m": 100431,
+  "n_seg": 19,
+  "total_km": 28.72,
+  "up_min_total": 746,
+  "summit_to_trail_m": 98646,
+  "diam_km": 9.64,
+  "comp_nodes": 15,
+  "all_nodes": 15,
+  "status": "ok"
+ },
+ {
+  "n": "묘봉",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "무척산",
+  "cands": 1,
+  "center_off_m": 101085,
+  "n_seg": 59,
+  "total_km": 35.49,
+  "up_min_total": 955,
+  "summit_to_trail_m": 98286,
+  "diam_km": 11.94,
+  "comp_nodes": 45,
+  "all_nodes": 45,
+  "status": "ok"
+ },
+ {
+  "n": "무학산",
+  "cands": 1,
+  "center_off_m": 100949,
+  "n_seg": 55,
+  "total_km": 51.06,
+  "up_min_total": 1730,
+  "summit_to_trail_m": 99300,
+  "diam_km": 10.78,
+  "comp_nodes": 46,
+  "all_nodes": 46,
+  "status": "ok"
+ },
+ {
+  "n": "미숭산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "민둥산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "발왕산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "백아산",
+  "cands": 1,
+  "center_off_m": 99621,
+  "n_seg": 23,
+  "total_km": 13.7,
+  "up_min_total": 392,
+  "summit_to_trail_m": 98375,
+  "diam_km": 7.33,
+  "comp_nodes": 20,
+  "all_nodes": 20,
+  "status": "ok"
+ },
+ {
+  "n": "백암산",
+  "cands": 1,
+  "center_off_m": 106545,
+  "n_seg": 17,
+  "total_km": 21.28,
+  "up_min_total": 719,
+  "summit_to_trail_m": 104694,
+  "diam_km": 9.75,
+  "comp_nodes": 17,
+  "all_nodes": 17,
+  "status": "ok"
+ },
+ {
+  "n": "백화산",
+  "cands": 1,
+  "status": "no_match"
+ },
+ {
+  "n": "벽방산",
+  "cands": 1,
+  "center_off_m": 99546,
+  "n_seg": 209,
+  "total_km": 59.42,
+  "up_min_total": 1880,
+  "summit_to_trail_m": 95237,
+  "diam_km": 10.71,
+  "comp_nodes": 161,
+  "all_nodes": 161,
+  "status": "ok"
+ },
+ {
+  "n": "병풍산",
+  "status": "error",
+  "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+ },
+ {
+  "n": "불곡산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "불암산",
+  "cands": 2,
+  "center_off_m": 99892,
+  "n_seg": 20,
+  "total_km": 16.46,
+  "up_min_total": 443,
+  "summit_to_trail_m": 97256,
+  "diam_km": 7.79,
+  "comp_nodes": 21,
+  "all_nodes": 21,
+  "status": "ok"
+ },
+ {
+  "n": "비계산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "삼신봉",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "선야산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "성주봉",
+  "cands": 1,
+  "center_off_m": 75582,
+  "n_seg": 14,
+  "total_km": 12.14,
+  "up_min_total": 456,
+  "summit_to_trail_m": 74522,
+  "diam_km": 2.35,
+  "comp_nodes": 10,
+  "all_nodes": 10,
+  "status": "ok"
+ },
+ {
+  "n": "쇠뿔바위봉",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "수도산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "수리산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "승학산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "식장산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "신어산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "아미산(홍천)",
+  "cands": 3,
+  "center_off_m": 99412,
+  "n_seg": 9,
+  "total_km": 19.57,
+  "up_min_total": 527,
+  "summit_to_trail_m": 97815,
+  "diam_km": 11.52,
+  "comp_nodes": 8,
+  "all_nodes": 8,
+  "status": "ok"
+ },
+ {
+  "n": "아미산(군위)",
+  "cands": 3,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "연화산(태백)",
+  "cands": 2,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "연화산(경남 고성)",
+  "cands": 2,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "영취산",
+  "cands": 1,
+  "center_off_m": 100595,
+  "n_seg": 22,
+  "total_km": 17.19,
+  "up_min_total": 510,
+  "summit_to_trail_m": 99096,
+  "diam_km": 7.32,
+  "comp_nodes": 21,
+  "all_nodes": 21,
+  "status": "ok"
+ },
+ {
+  "n": "오봉산",
+  "cands": 4,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "오산(구례)",
+  "cands": 3,
+  "status": "no_match"
+ },
+ {
+  "n": "와룡산",
+  "cands": 1,
+  "center_off_m": 100552,
+  "n_seg": 19,
+  "total_km": 35.68,
+  "up_min_total": 980,
+  "summit_to_trail_m": 97754,
+  "diam_km": 16.69,
+  "comp_nodes": 19,
+  "all_nodes": 19,
+  "status": "ok"
+ },
+ {
+  "n": "우두산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "운문산",
+  "cands": 1,
+  "center_off_m": 101821,
+  "n_seg": 64,
+  "total_km": 68.53,
+  "up_min_total": 2273,
+  "summit_to_trail_m": 99137,
+  "diam_km": 15.9,
+  "comp_nodes": 47,
+  "all_nodes": 47,
+  "status": "ok"
+ },
+ {
+  "n": "원적산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "장복산",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "장산(부산)",
+  "cands": 4,
+  "center_off_m": 99661,
+  "n_seg": 133,
+  "total_km": 54.28,
+  "up_min_total": 1365,
+  "summit_to_trail_m": 97063,
+  "diam_km": 9.71,
+  "comp_nodes": 93,
+  "all_nodes": 93,
+  "status": "ok"
+ },
+ {
+  "n": "적상산",
+  "cands": 1,
+  "center_off_m": 101381,
+  "n_seg": 2,
+  "total_km": 9.51,
+  "up_min_total": 209,
+  "summit_to_trail_m": 99940,
+  "diam_km": 9.51,
+  "comp_nodes": 3,
+  "all_nodes": 3,
+  "status": "ok"
+ },
+ {
+  "n": "제비봉",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "제암산",
+  "cands": 1,
+  "center_off_m": 100270,
+  "n_seg": 6,
+  "total_km": 9.96,
+  "up_min_total": 256,
+  "summit_to_trail_m": 98953,
+  "diam_km": 7.36,
+  "comp_nodes": 7,
+  "all_nodes": 7,
+  "status": "ok"
+ },
+ {
+  "n": "진악산",
+  "cands": 1,
+  "center_off_m": 100245,
+  "n_seg": 16,
+  "total_km": 18.61,
+  "up_min_total": 518,
+  "summit_to_trail_m": 98384,
+  "diam_km": 8.21,
+  "comp_nodes": 14,
+  "all_nodes": 14,
+  "status": "ok"
+ },
+ {
+  "n": "청태산",
+  "status": "error",
+  "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+ },
+ {
+  "n": "초록봉",
+  "cands": 1,
+  "center_off_m": 99839,
+  "n_seg": 50,
+  "total_km": 46.44,
+  "up_min_total": 989,
+  "summit_to_trail_m": 96869,
+  "diam_km": 11.84,
+  "comp_nodes": 43,
+  "all_nodes": 43,
+  "status": "ok"
+ },
+ {
+  "n": "초암산",
+  "cands": 1,
+  "center_off_m": 100907,
+  "n_seg": 6,
+  "total_km": 8.63,
+  "up_min_total": 189,
+  "summit_to_trail_m": 100544,
+  "diam_km": 7.81,
+  "comp_nodes": 7,
+  "all_nodes": 7,
+  "status": "ok"
+ },
+ {
+  "n": "추월산",
+  "cands": 1,
+  "center_off_m": 100827,
+  "n_seg": 41,
+  "total_km": 48.22,
+  "up_min_total": 1460,
+  "summit_to_trail_m": 98447,
+  "diam_km": 28.78,
+  "comp_nodes": 33,
+  "all_nodes": 33,
+  "status": "ok"
+ },
+ {
+  "n": "축령산",
+  "cands": 2,
+  "center_off_m": 100857,
+  "n_seg": 6,
+  "total_km": 8.21,
+  "up_min_total": 240,
+  "summit_to_trail_m": 100253,
+  "diam_km": 2.88,
+  "comp_nodes": 5,
+  "all_nodes": 5,
+  "status": "ok"
+ },
+ {
+  "n": "토함산",
+  "cands": 1,
+  "center_off_m": 100397,
+  "n_seg": 15,
+  "total_km": 16.21,
+  "up_min_total": 473,
+  "summit_to_trail_m": 98971,
+  "diam_km": 7.65,
+  "comp_nodes": 16,
+  "all_nodes": 16,
+  "status": "ok"
+ },
+ {
+  "n": "팔각산",
+  "cands": 1,
+  "center_off_m": 100258,
+  "n_seg": 9,
+  "total_km": 4.65,
+  "up_min_total": 164,
+  "summit_to_trail_m": 99473,
+  "diam_km": 4.65,
+  "comp_nodes": 10,
+  "all_nodes": 10,
+  "status": "ok"
+ },
+ {
+  "n": "팔봉산(서산)",
+  "cands": 1,
+  "status": "error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "n": "현성산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "화야산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "흑성산",
+  "cands": 1,
+  "center_off_m": 100345,
+  "n_seg": 9,
+  "total_km": 7.55,
+  "up_min_total": 192,
+  "summit_to_trail_m": 99483,
+  "diam_km": 5.77,
+  "comp_nodes": 8,
+  "all_nodes": 8,
+  "status": "ok"
+ },
+ {
+  "n": "갈기산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "계룡산(거제)",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "갑하산",
+  "cands": 1,
+  "center_off_m": 0,
+  "n_seg": 56,
+  "total_km": 33.0,
+  "up_min_total": 1093,
+  "diam_km": 8.29,
+  "comp_nodes": 48,
+  "all_nodes": 50,
+  "status": "ok"
+ },
+ {
+  "n": "고덕산",
+  "cands": 2,
+  "center_off_m": 0,
+  "n_seg": 9,
+  "total_km": 5.48,
+  "up_min_total": 185,
+  "diam_km": 3.34,
+  "comp_nodes": 7,
+  "all_nodes": 7,
+  "status": "ok"
+ },
+ {
+  "n": "고리봉",
+  "cands": 1,
+  "status": "no_match"
+ },
+ {
+  "n": "금강산",
+  "cands": 2,
+  "center_off_m": 0,
+  "n_seg": 25,
+  "total_km": 17.74,
+  "up_min_total": 541,
+  "diam_km": 8.61,
+  "comp_nodes": 21,
+  "all_nodes": 21,
+  "status": "ok"
+ },
+ {
+  "n": "석화산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "설흘산",
+  "cands": 1,
+  "center_off_m": 0,
+  "n_seg": 16,
+  "total_km": 12.25,
+  "up_min_total": 384,
+  "diam_km": 5.63,
+  "comp_nodes": 15,
+  "all_nodes": 15,
+  "status": "ok"
+ },
+ {
+  "n": "운무산",
+  "cands": 1,
+  "center_off_m": 0,
+  "n_seg": 39,
+  "total_km": 44.85,
+  "up_min_total": 1091,
+  "diam_km": 14.26,
+  "comp_nodes": 31,
+  "all_nodes": 31,
+  "status": "ok"
+ },
+ {
+  "n": "인왕산",
+  "cands": 1,
+  "center_off_m": 0,
+  "n_seg": 80,
+  "total_km": 19.52,
+  "up_min_total": 590,
+  "diam_km": 3.04,
+  "comp_nodes": 66,
+  "all_nodes": 76,
+  "status": "ok"
+ },
+ {
+  "n": "천등산",
+  "cands": 0,
+  "status": "no_match"
+ },
+ {
+  "n": "팔공산(장수)",
+  "cands": 1,
+  "center_off_m": 0,
+  "n_seg": 375,
+  "total_km": 213.01,
+  "up_min_total": 6243,
+  "diam_km": 22.68,
+  "comp_nodes": 266,
+  "all_nodes": 295,
+  "status": "ok"
+ },
+ {
+  "n": "향적산",
+  "cands": 1,
+  "center_off_m": 0,
+  "n_seg": 41,
+  "total_km": 27.13,
+  "up_min_total": 641,
+  "diam_km": 13.19,
+  "comp_nodes": 38,
+  "all_nodes": 38,
+  "status": "ok"
+ },
+ {
+  "n": "회문산",
+  "cands": 1,
+  "center_off_m": 0,
+  "n_seg": 43,
+  "total_km": 19.01,
+  "up_min_total": 565,
+  "diam_km": 7.99,
+  "comp_nodes": 34,
+  "all_nodes": 34,
+  "status": "ok"
+ }
+]
