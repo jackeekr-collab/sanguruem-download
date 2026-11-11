@@ -1,0 +1,23 @@
+name: Trail verify
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: pip install pyshp pyproj
+      - name: Probe
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: python3 scripts/trail_verify.py
+      - name: Commit result
+        run: |
+          git config user.name "sanguruem-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add scripts/trail_verify.json
+          git diff --cached --quiet || (git commit -m "등산로정보 산별 규모 계산 결과" && git push origin HEAD:main)
