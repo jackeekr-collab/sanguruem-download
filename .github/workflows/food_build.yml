@@ -1,7 +1,7 @@
 name: Food build
 on:
   schedule:
-    - cron: '50 19 * * 1'   # 매주 월요일 04:50 KST
+    - cron: '50 19 4 * *'   # 매월 5일 04:50 KST (UTC 4일 19:50)
   workflow_dispatch:
 permissions:
   contents: write

@@ -3,6 +3,7 @@ name: Geocode spas
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - 'scripts/spas_source.json'
       - 'scripts/geocode_spas.py'

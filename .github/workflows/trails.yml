@@ -3,6 +3,7 @@ name: Geocode trails
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - 'scripts/trails_source.json'
       - 'scripts/geocode_trails.py'
