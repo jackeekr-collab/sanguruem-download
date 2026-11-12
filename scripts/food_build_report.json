@@ -1,0 +1,235 @@
+{
+ "raw_downloaded": 13386,
+ "kept": 13381,
+ "dropped": {
+  "제외 분류(술집 등)": 5
+ },
+ "by_kind": {
+  "일식": 509,
+  "한식": 8079,
+  "카페·빵": 3125,
+  "중식": 616,
+  "양식": 666,
+  "기타": 197,
+  "분식·간식": 189
+ },
+ "with_photo": 9368,
+ "photo_type": {
+  "0": 4013,
+  "3": 8578,
+  "1": 790
+ },
+ "file_bytes": 1733603,
+ "gzip_bytes": 559875,
+ "prefixes": [
+  "https://tong.visitkorea.or.kr/cms/resource/",
+  "http://tong.visitkorea.or.kr/cms/resource/"
+ ],
+ "thumb_share": 9370,
+ "image_probe": [
+  {
+   "url_scheme": "http",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 546782
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 546782
+   }
+  },
+  {
+   "url_scheme": "https",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 11793
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 11793
+   }
+  },
+  {
+   "url_scheme": "https",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": "ERR HTTP Error 404: Not Found",
+   "http": "ERR HTTP Error 404: Not Found"
+  },
+  {
+   "url_scheme": "https",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 43326
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 43326
+   }
+  },
+  {
+   "url_scheme": "https",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 16052
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 16052
+   }
+  },
+  {
+   "url_scheme": "http",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 22967
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 22967
+   }
+  },
+  {
+   "url_scheme": "http",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 17325
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 17325
+   }
+  },
+  {
+   "url_scheme": "https",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 14758
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 14758
+   }
+  },
+  {
+   "url_scheme": "https",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 24057
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 24057
+   }
+  },
+  {
+   "url_scheme": "http",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 18462
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 18462
+   }
+  },
+  {
+   "url_scheme": "https",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 19454
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpg",
+    "bytes": 19454
+   }
+  },
+  {
+   "url_scheme": "http",
+   "host": "tong.visitkorea.or.kr",
+   "which": "thumb",
+   "https": {
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 165944
+   },
+   "http": {
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 165944
+   }
+  }
+ ],
+ "sample": [
+  [
+   "2805408",
+   "가가와",
+   "부산광역시 부산진구  중앙번영로 (6)",
+   35.14477,
+   129.0598,
+   2,
+   "",
+   0
+  ],
+  [
+   "2901530",
+   "가경목장",
+   "경기도 안산시 상록구 감골로 173 (사동)",
+   37.29707,
+   126.85799,
+   0,
+   "0|12/2901512_image3_1.jpg",
+   3
+  ],
+  [
+   "1797757",
+   "가경식당",
+   "충청남도 부여군 부여읍 성왕로 286",
+   36.2833,
+   126.91894,
+   0,
+   "",
+   0
+  ]
+ ]
+}
