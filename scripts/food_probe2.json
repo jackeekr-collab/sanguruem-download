@@ -1,0 +1,398 @@
+{
+ "설악산(오색공영주차장)": {
+  "10000": {
+   "total": 1,
+   "items": [
+    {
+     "title": "오색식당",
+     "addr1": "강원특별자치도 양양군 서면 대청봉길 58-120",
+     "dist": "342.24599049495697",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.4486582802",
+     "mapy": "38.0776999624",
+     "contentid": "403576"
+    }
+   ]
+  },
+  "20000": {
+   "total": 18,
+   "items": [
+    {
+     "title": "오색식당",
+     "addr1": "강원특별자치도 양양군 서면 대청봉길 58-120",
+     "dist": "342.24599049495697",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.4486582802",
+     "mapy": "38.0776999624",
+     "contentid": "403576"
+    },
+    {
+     "title": "시골할머니나물밥",
+     "addr1": "강원특별자치도 속초시 설악산로 214-1 (도문동)",
+     "dist": "15125.927336776322",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.5843821724",
+     "mapy": "38.1639258941",
+     "contentid": "2501140"
+    },
+    {
+     "title": "공가네감자옹심이",
+     "addr1": "강원특별자치도 양양군 남문5길 5-17",
+     "dist": "15179.689712150152",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/19/2837919_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/19/2837919_image3_1.jpg",
+     "mapx": "128.6232286255",
+     "mapy": "38.0754119409",
+     "contentid": "2837935"
+    },
+    {
+     "title": "동일식당",
+     "addr1": "강원특별자치도 양양군 양양읍 남문3길 11-9",
+     "dist": "15262.672850761708",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/29/2785929_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/29/2785929_image2_1.jpg",
+     "mapx": "128.6241701943",
+     "mapy": "38.0758091353",
+     "contentid": "2781736"
+    },
+    {
+     "title": "크래프트루트",
+     "addr1": "강원특별자치도 속초시 관광로 418",
+     "dist": "15271.525560676742",
+     "cat3": "A05020700",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/23/2732823_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/23/2732823_image3_1.jpg",
+     "mapx": "128.5377159268",
+     "mapy": "38.1972849934",
+     "contentid": "2710907"
+    },
+    {
+     "title": "두메산골",
+     "addr1": "강원특별자치도 속초시 관광로 457-11 (노학동)",
+     "dist": "15420.908591840223",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.5332551123",
+     "mapy": "38.2007789450",
+     "contentid": "133781"
+    },
+    {
+     "title": "김영애할머니순두부 본점",
+     "addr1": "강원특별자치도 속초시 원암학사평길 183",
+     "dist": "15737.177784824009",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/86/2839786_image2_1.JPG",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/86/2839786_image3_1.JPG",
+     "mapx": "128.5280831963",
+     "mapy": "38.2060282334",
+     "contentid": "2839793"
+    },
+    {
+     "title": "등불가든",
+     "addr1": "강원특별자치도 양양군 양양읍 포월나들길 23",
+     "dist": "16096.232736843434",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.6306492939",
+     "mapy": "38.1037421257",
+     "contentid": "3434330"
+    },
+    {
+     "title": "바다뷰제빵소",
+     "addr1": "강원특별자치도 양양군 동해대로 3296",
+     "dist": "16208.085575045734",
+     "cat3": "A05020900",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/65/2839865_image2_1.JPG",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/65/2839865_image3_1.JPG",
+     "mapx": "128.6209520179",
+     "mapy": "38.1336884549",
+     "contentid": "2839872"
+    },
+    {
+     "title": "해촌",
+     "addr1": "강원특별자치도 양양군 동명로 81",
+     "dist": "16442.566153385404",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/98/2838098_image2_1.JPG",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/98/2838098_image3_1.JPG",
+     "mapx": "128.6374605995",
+     "mapy": "38.0776341814",
+     "contentid": "2838104"
+    },
+    {
+     "title": "완도회식당",
+     "addr1": "강원특별자치도 속초시 먹거리4길 21 (교동)",
+     "dist": "16911.328375013327",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.5729905485",
+     "mapy": "38.1957219724",
+     "contentid": "2774680"
+    },
+    {
+     "title": "남경막국수",
+     "addr1": "강원특별자치도 속초시 대포항희망길 47 (대포동)",
+     "dist": "17275.85249735069",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/98/2891798_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/98/2891798_image3_1.jpg",
+     "mapx": "128.6063910063",
+     "mapy": "38.1728669480",
+     "contentid": "2891819"
+    },
+    {
+     "title": "봉브레드",
+     "addr1": "강원특별자치도 속초시 동해대로 4344-1",
+     "dist": "17293.489159906596",
+     "cat3": "A05020900",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/97/2839797_image2_1.JPG",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/97/2839797_image3_1.JPG",
+     "mapx": "128.5684185166",
+     "mapy": "38.2029404874",
+     "contentid": "2839817"
+    },
+    {
+     "title": "이조면옥",
+     "addr1": "강원특별자치도 속초시 동해대로 3887 (조양동)",
+     "dist": "17546.7546868648",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/82/2786382_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/82/2786382_image2_1.jpg",
+     "mapx": "128.6007356730",
+     "mapy": "38.1822018631",
+     "contentid": "2782135"
+    },
+    {
+     "title": "솔밭가든막국수",
+     "addr1": "강원특별자치도 속초시 부월1길 17",
+     "dist": "17665.504401610844",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.5943165892",
+     "mapy": "38.1893064667",
+     "contentid": "1959024"
+    },
+    {
+     "title": "동해순대국집",
+     "addr1": "강원특별자치도 속초시 중앙로129번길 35-17 (금호동)",
+     "dist": "18575.53217808439",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/10/2711310_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/10/2711310_image3_1.jpg",
+     "mapx": "128.5889027151",
+     "mapy": "38.2045962485",
+     "contentid": "2710947"
+    },
+    {
+     "title": "자연횟집",
+     "addr1": "강원특별자치도 양양군 손양면 수산1길 33",
+     "dist": "19521.149748056647",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/71/2786871_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/71/2786871_image3_1.jpg",
+     "mapx": "128.6720879846",
+     "mapy": "38.0786625133",
+     "contentid": "2781370"
+    },
+    {
+     "title": "이모네식당",
+     "addr1": "강원특별자치도 속초시 영랑해안6길 16",
+     "dist": "19891.20558525862",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/45/2837245_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/45/2837245_image3_1.jpg",
+     "mapx": "128.5960878399",
+     "mapy": "38.2152590363",
+     "contentid": "2837253"
+    }
+   ]
+  }
+ },
+ "치악산(황골탐방지원센터)": {
+  "10000": {
+   "total": 2,
+   "items": [
+    {
+     "title": "프로스트",
+     "addr1": "강원특별자치도 원주시 감영길 28",
+     "dist": "6457.392703451688",
+     "cat3": "A05020200",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/26/2892226_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/26/2892226_image3_1.jpg",
+     "mapx": "127.9512863197",
+     "mapy": "37.3476418287",
+     "contentid": "2892229"
+    },
+    {
+     "title": "수가성순두부",
+     "addr1": "강원특별자치도 원주시 남원로612번길 1",
+     "dist": "6768.209840249666",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "127.9515032595",
+     "mapy": "37.3376068809",
+     "contentid": "2774520"
+    }
+   ]
+  },
+  "20000": {
+   "total": 10,
+   "items": [
+    {
+     "title": "프로스트",
+     "addr1": "강원특별자치도 원주시 감영길 28",
+     "dist": "6457.392703451688",
+     "cat3": "A05020200",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/26/2892226_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/26/2892226_image3_1.jpg",
+     "mapx": "127.9512863197",
+     "mapy": "37.3476418287",
+     "contentid": "2892229"
+    },
+    {
+     "title": "수가성순두부",
+     "addr1": "강원특별자치도 원주시 남원로612번길 1",
+     "dist": "6768.209840249666",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "127.9515032595",
+     "mapy": "37.3376068809",
+     "contentid": "2774520"
+    },
+    {
+     "title": "사니다카페",
+     "addr1": "강원특별자치도 원주시 호저면 칠봉로 109-127",
+     "dist": "10874.920786542993",
+     "cat3": "A05020900",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/15/2665615_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/15/2665615_image3_1.jpg",
+     "mapx": "127.9145018054",
+     "mapy": "37.4066870985",
+     "contentid": "2665662"
+    },
+    {
+     "title": "한일막국수",
+     "addr1": "강원특별자치도 횡성군 우천면 한우로우항7길 15",
+     "dist": "11177.967064261975",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.0745638065",
+     "mapy": "37.4517848723",
+     "contentid": "2685552"
+    },
+    {
+     "title": "횡성한우마을",
+     "addr1": "강원특별자치도 횡성군 우천면 수남로 348",
+     "dist": "11659.360202147533",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "128.0642978322",
+     "mapy": "37.4597115410",
+     "contentid": "2681553"
+    },
+    {
+     "title": "엄마밥줘",
+     "addr1": "강원특별자치도 횡성군 횡성읍 횡성로 63",
+     "dist": "11927.654570540959",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "127.9745086915",
+     "mapy": "37.4606680850",
+     "contentid": "2685504"
+    },
+    {
+     "title": "횡성축협 한우프라자 본점",
+     "addr1": "강원특별자치도 횡성군 횡성읍 횡성로 337",
+     "dist": "14195.530220380211",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/74/2925274_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/74/2925274_image3_1.jpg",
+     "mapx": "127.9814212741",
+     "mapy": "37.4838766403",
+     "contentid": "2925292"
+    },
+    {
+     "title": "차이원",
+     "addr1": "강원특별자치도 횡성군 횡성읍 앞들서2로 35",
+     "dist": "14653.512096100612",
+     "cat3": "A05020400",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "127.9812072805",
+     "mapy": "37.4880955928",
+     "contentid": "2685549"
+    },
+    {
+     "title": "횡성한우국밥",
+     "addr1": "강원특별자치도 횡성군 횡성읍 문화체육로 46",
+     "dist": "15327.681309460158",
+     "cat3": "A05020100",
+     "tel": "",
+     "firstimage": "",
+     "firstimage2": "",
+     "mapx": "127.9874537209",
+     "mapy": "37.4954837436",
+     "contentid": "2665242"
+    },
+    {
+     "title": "카페이야기담",
+     "addr1": "강원특별자치도 원주시 호저면 칠봉로 700",
+     "dist": "15471.197490136912",
+     "cat3": "A05020900",
+     "tel": "",
+     "firstimage": "http://tong.visitkorea.or.kr/cms/resource/64/2791864_image2_1.jpg",
+     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/64/2791864_image2_1.jpg",
+     "mapx": "127.8891694922",
+     "mapy": "37.4500899412",
+     "contentid": "2785879"
+    }
+   ]
+  }
+ }
+}
