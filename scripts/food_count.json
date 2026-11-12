@@ -1,0 +1,63 @@
+{
+ "total": 13386,
+ "by_area": {
+  "서울": 584,
+  "인천": 203,
+  "대전": 52,
+  "대구": 135,
+  "광주": 49,
+  "부산": 88,
+  "울산": 86,
+  "세종": 25,
+  "경기": 1673,
+  "강원": 355,
+  "충북": 173,
+  "충남": 256,
+  "경북": 284,
+  "경남": 355,
+  "전북": 161,
+  "전남": 220,
+  "제주": 201
+ },
+ "sample": {
+  "n": 200,
+  "avg_bytes_with_img": 205,
+  "img_rate": 0.74,
+  "avg_bytes_no_img": 156,
+  "fields": [
+   "addr1",
+   "addr2",
+   "areacode",
+   "cat1",
+   "cat2",
+   "cat3",
+   "contentid",
+   "contenttypeid",
+   "cpyrhtDivCd",
+   "createdtime",
+   "firstimage",
+   "firstimage2",
+   "lDongRegnCd",
+   "lDongSignguCd",
+   "lclsSystm1",
+   "lclsSystm2",
+   "lclsSystm3",
+   "mapx",
+   "mapy",
+   "mlevel",
+   "modifiedtime",
+   "sigungucode",
+   "tel",
+   "title",
+   "zipcode"
+  ],
+  "example": {
+   "t": "가가와",
+   "a": "부산광역시 부산진구  중앙번영로 (6)",
+   "x": "129.059799436643",
+   "y": "35.1447671591569",
+   "c": "",
+   "i": ""
+  }
+ }
+}
