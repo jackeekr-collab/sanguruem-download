@@ -43,6 +43,8 @@ for f in feats:
     parts = nm.split()
     if len(parts) < 3: skip += 1; continue
     sido = pr.get('sidonm') or parts[0]; dong = parts[-1]; sgg = ' '.join(parts[1:-1])
+    import re as _re
+    sgg = _re.sub(r'^(.+?시)(.+구)$', r'\1 \2', sgg)   # 안양시만안구 -> 안양시 만안구
     c = centroid(f['geometry'])
     if not c: skip += 1; continue
     lng, lat = c
