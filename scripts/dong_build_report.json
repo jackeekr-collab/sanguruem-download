@@ -1,0 +1,41 @@
+{
+ "versions_tail": [
+  "ver20260201",
+  "ver20260401",
+  "ver20260701",
+  "ver20261001"
+ ],
+ "license_data": "DATA_LICENSE — admdongkor 경계 데이터 / boundary data\n\n이 파일은 admdongkor 저장소의 [데이터](행정동·시군구·시도 경계: geojson, parquet,\n중심점 등)에 적용됩니다. 소스 코드(js/, lib/ 등)는 별도로 MIT License(LICENSE)를 따릅니다.\n\nThis file covers the DATA in this repository (administrative boundary files:\ngeojson, parquet, centroids). Source code (js/, lib/) is licensed separately\nunder the MIT License (see LICENSE).\n\n──────────────────────────────────────────────────────────\n\n1. 가공물 라이선스 / License of this dataset\n\n이 저장소가 추가·가공한 부분(경계 보정, 행정동 변경이력 반영, 코드 매칭 인덱스,\n시계열 데이터 등)은 Creative Commons Attribution 4.0 International (CC BY 4.0)\n으로 제공됩니다.\n  SPDX-License-Identifier: CC-BY-4.0\n  전문(Full text): https://creativecommons.org/licenses/by/4.0/  (국문: .../legalcode.ko)\n\n2. 원자료 조건 / Upstream source condition\n\n경계의 원자료는 통계청 통계지리정보서비스(SGIS)가 공공누리 제1유형(출처표시)으로\n개방한 행정동 경계입니다. 이 출처표시 의무는 가공 여부와 무관하게 유지되므로,\n본 데이터를 이용·재배포할 때 SGIS 출처표시를 반드시 보존해야 합니다.\n  공공누리 제1유형: https://www.kogl.or.kr/info/licenseType1.do\n\nThe underlying boundaries originate from Statistics Korea (SGIS), released under\nthe Korea Open Government License (KOGL) Type 1 (attribution). This requirement\npersists regardless of modification; SGIS attribution must be preserved.\n\n3. 출처 표기 / Required attribution\n\n본 데이터를 이용할 경우 아래 표기를 유지하시기 바랍니다.\n\n  \"본 데이터는 통계청 통계지리정보서비스(SGIS, https://sgis.kostat.go.kr)에서\n   공공누리 제1유형으로 개방한 행정동 경계를 가공한 것이며(가공: vuski/admdongkor,\n   https://github.com/vuski/admdongkor), CC BY 4.0으로 배포됩니다.\"\n\n  \"This data is derived from administrative-dong boundaries relea",
+ "source": "ver20261001/HangJeongDong_ver20261001.geojson",
+ "features": 3559,
+ "props_sample": {
+  "adm_nm": "서울특별시 종로구 사직동",
+  "adm_cd2": "1111053000",
+  "sgg": "11110",
+  "sido": "11",
+  "sidonm": "서울특별시",
+  "sggnm": "종로구",
+  "adm_cd": "11010530"
+ },
+ "kept": 3559,
+ "skipped": 0,
+ "bytes": 122508,
+ "sido": {
+  "서울특별시": 427,
+  "부산광역시": 206,
+  "대구광역시": 150,
+  "인천광역시": 158,
+  "전남광주통합특별시": 393,
+  "대전광역시": 82,
+  "울산광역시": 55,
+  "세종특별자치시": 25,
+  "경기도": 602,
+  "강원특별자치도": 188,
+  "충청북도": 153,
+  "충청남도": 208,
+  "경상북도": 321,
+  "경상남도": 305,
+  "제주특별자치도": 43,
+  "전북특별자치도": 243
+ }
+}
