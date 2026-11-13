@@ -2,7 +2,7 @@
 <title>지도 시험</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@6.4.3/ol.css">
 <style>body{margin:0;font-family:sans-serif}#bar{padding:8px;background:#eef}#bar input,#bar select,#bar button{font-size:16px;margin:2px}#map1{width:100%;height:70vh}#log{padding:6px;font-size:13px;color:#900;white-space:pre-wrap}</style></head><body>
-<div id="bar">키 <input id="k" size="30" placeholder="인증키 붙여넣기"> 모드 <select id="m"></select> <button id="go">지도 열기</button> <button id="diag">진단</button> <label><input type="checkbox" id="hy">하이브리드</label></div>
+<div id="bar">키 <input id="k" size="30" placeholder="인증키 붙여넣기"> 모드 <select id="m"></select> <button id="go">지도 열기</button> <button id="diag">진단</button> <button id="tile">타일 직접 요청</button> 레이어 <input id="ly" size="14" value="japanese_map"> <label><input type="checkbox" id="hy">하이브리드</label></div>
 <div id="log"></div><div id="map1"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -21,6 +21,13 @@ document.getElementById('go').onclick=async()=>{
  }catch(e){log('오류: '+(e&&e.message||'스크립트를 불러오지 못했어요 (주소 차단·키 미승인·네트워크)'))}
 };
 document.getElementById('hy').onchange=e=>{try{map1._setHybridMap(e.target.checked)}catch(x){log('하이브리드 오류')}};
+document.getElementById('tile').onclick=async()=>{const k=document.getElementById('k').value.trim(),ly=document.getElementById('ly').value.trim();
+ const u='https://map.ngii.go.kr/openapi/Gettile.do?apikey='+encodeURIComponent(k)+'&layer='+encodeURIComponent(ly)+'&style=korean&tilematrixset=EPSG%3A5179&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=L18&TileCol=17778&TileRow=31866';
+ log('--- 타일 직접 요청 ('+ly+') ---');
+ try{const r=await fetch(u);const ct=r.headers.get('content-type')||'';log('상태 '+r.status+' · 종류 '+ct);
+  if(ct.indexOf('image')===0){const b=await r.blob();log('이미지 '+b.size+' bytes (정상)');const im=new Image();im.src=URL.createObjectURL(b);im.style.border='2px solid red';document.getElementById('log').appendChild(im)}
+  else{const t=await r.text();log('응답 내용: '+t.slice(0,500))}}
+ catch(e){log('요청 실패: '+e.message)}};
 window.onerror=(m,u,l,c)=>log('오류: '+m+' ('+(u||'').split('/').pop().split('?')[0]+':'+l+')');
 ['error','warn'].forEach(f=>{const o=console[f];console[f]=function(){try{log('콘솔 '+f+': '+[].slice.call(arguments).map(a=>a&&a.message?a.message:String(a)).join(' ').slice(0,300))}catch(e){}o.apply(console,arguments)}});
 document.getElementById('diag').onclick=async()=>{const k=document.getElementById('k').value.trim();log('--- 진단 ---');log('ol: '+(window.ol?(ol.VERSION||'있음'):'없음')+' / proj4: '+(window.proj4?'있음':'없음')+' / jQuery: '+(window.jQuery?jQuery.fn.jquery:'없음')+' / ngii_wmts: '+typeof window.ngii_wmts);
