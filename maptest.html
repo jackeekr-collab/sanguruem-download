@@ -2,7 +2,7 @@
 <title>지도 시험</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@6.4.3/ol.css">
 <style>body{margin:0;font-family:sans-serif}#bar{padding:8px;background:#eef}#bar input,#bar select,#bar button{font-size:16px;margin:2px}#map1{width:100%;height:70vh}#log{padding:6px;font-size:13px;color:#900;white-space:pre-wrap}</style></head><body>
-<div id="bar">키 <input id="k" size="30" placeholder="인증키 붙여넣기"> 모드 <select id="m"></select> <button id="go">지도 열기</button> <button id="diag">진단</button> <button id="jump">노인봉으로</button> <button id="tile">타일 직접 요청</button> 레이어 <input id="ly" size="14" value="japanese_map"> <label><input type="checkbox" id="hy">하이브리드</label></div>
+<div id="bar">키 <input id="k" size="30" placeholder="인증키 붙여넣기"> 모드 <select id="m"></select> <button id="go">지도 열기</button> <button id="diag">진단</button> <button id="dl">스크립트 내려받기</button> <button id="jump">노인봉으로</button> <button id="tile">타일 직접 요청</button> 레이어 <input id="ly" size="14" value="japanese_map"> <label><input type="checkbox" id="hy">하이브리드</label></div>
 <div id="log"></div><div id="map1"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -24,6 +24,7 @@ document.getElementById('hy').onchange=e=>{try{map1._setHybridMap(e.target.check
 function olMap(){ if(!map1) return null; for(const k in map1){ try{ if(map1[k] instanceof ol.Map) return map1[k] }catch(e){} } return null }
 document.getElementById('jump').onclick=()=>{ const m=olMap(); if(!m){log('지도 객체를 못 찾았어요. 지도 열기를 먼저 눌러 주세요');return}
  const c=ol.proj.transform([128.7655,37.7330],'EPSG:4326','EPSG:5179'); const v=m.getView(); v.setCenter(c); log('이동 완료. 확대 단계 '+v.getZoom()+' (지도 위 + 버튼으로 확대)'); try{v.setZoom(Math.max(v.getZoom(),13))}catch(e){} };
+document.getElementById('dl').onclick=async()=>{const k=document.getElementById('k').value.trim();try{const r=await fetch('https://map.ngii.go.kr/openapi/wmts_ngiiMap_v6.4.3.js?apikey='+encodeURIComponent(k));let t=await r.text();const had=k&&t.indexOf(k)>=0;if(had)t=t.split(k).join('KEY');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:'text/plain'}));a.download='ngii_script.txt';a.click();log('내려받기 완료 · '+t.length+'자'+(had?' (키는 KEY로 바꿔 저장했어요)':''))}catch(e){log('내려받기 실패: '+e.message)}};
 document.getElementById('tile').onclick=async()=>{const k=document.getElementById('k').value.trim(),ly=document.getElementById('ly').value.trim();
  const u='https://map.ngii.go.kr/openapi/Gettile.do?apikey='+encodeURIComponent(k)+'&layer='+encodeURIComponent(ly)+'&style=korean&tilematrixset=EPSG%3A5179&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=L18&TileCol=17778&TileRow=31866';
  log('--- 타일 직접 요청 ('+ly+') ---');
