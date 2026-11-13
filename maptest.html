@@ -4,7 +4,6 @@
 <style>body{margin:0;font-family:sans-serif}#bar{padding:8px;background:#eef}#bar input,#bar select,#bar button{font-size:16px;margin:2px}#map1{width:100%;height:70vh}#log{padding:6px;font-size:13px;color:#900;white-space:pre-wrap}</style></head><body>
 <div id="bar">키 <input id="k" size="30" placeholder="인증키 붙여넣기"> 모드 <select id="m"></select> <button id="go">지도 열기</button> <button id="diag">진단</button> <label><input type="checkbox" id="hy">하이브리드</label></div>
 <div id="log"></div><div id="map1"></div>
-<script src="https://cdn.jsdelivr.net/npm/ol@6.4.3/dist/ol.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
@@ -12,10 +11,12 @@ const log=t=>document.getElementById('log').textContent+=t+'\n';
 for(let i=1;i<=15;i++)document.getElementById('m').insertAdjacentHTML('beforeend','<option'+(i==11?' selected':'')+'>'+i+'</option>');
 let map1=null;
 function load(src){return new Promise((ok,no)=>{const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=no;document.head.appendChild(s)})}
+async function needOl(){ if(window.ol) return; const urls=['https://cdn.jsdelivr.net/npm/ol@6.4.3/dist/ol.js','https://unpkg.com/ol@6.4.3/dist/ol.js','https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js','https://openlayers.org/en/v6.4.3/build/ol.js'];
+ for(const u of urls){ try{await load(u); if(window.ol){log('OpenLayers 로드 성공: '+u.split('/')[2]);return} }catch(e){log('OpenLayers 실패: '+u.split('/')[2])} } throw new Error('OpenLayers를 불러오지 못했어요'); }
 document.getElementById('go').onclick=async()=>{
  const k=document.getElementById('k').value.trim();if(!k){log('키를 넣어 주세요');return}
  document.getElementById('log').textContent='';document.getElementById('map1').innerHTML='';
- try{ if(!window.ngii_wmts){ try{await load('https://map.ngii.go.kr/openapi/wmts_ngiiMap_v6.4.3.js?apikey='+encodeURIComponent(k));log('https 스크립트 로드 성공')}catch(e){log('https 스크립트 실패 → http 시도(차단될 수 있음)');await load('http://map.ngii.go.kr/openapi/wmts_ngiiMap_v6.4.3.js?apikey='+encodeURIComponent(k));log('http 스크립트 로드 성공')} }
+ try{ await needOl(); if(!window.ngii_wmts){ try{await load('https://map.ngii.go.kr/openapi/wmts_ngiiMap_v6.4.3.js?apikey='+encodeURIComponent(k));log('https 스크립트 로드 성공')}catch(e){log('https 스크립트 실패 → http 시도(차단될 수 있음)');await load('http://map.ngii.go.kr/openapi/wmts_ngiiMap_v6.4.3.js?apikey='+encodeURIComponent(k));log('http 스크립트 로드 성공')} }
   map1=new ngii_wmts.map('map1',{mapMode:+document.getElementById('m').value});log('지도 생성 호출 완료 (모드 '+document.getElementById('m').value+')');
  }catch(e){log('오류: '+(e&&e.message||'스크립트를 불러오지 못했어요 (주소 차단·키 미승인·네트워크)'))}
 };
